@@ -1,0 +1,276 @@
+/* Reset and Base Styles */
+* html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   background-color: #e0ddd1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+/* Flex container to align logo left and nav right */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo image styling */
+.logo img {
+  height: 80px;
+  width: auto;
+}
+
+/* Navigation links and Book Now button aligned right */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Nav links layout */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #1c39bb;
+}
+
+/* Book Now Button */
+.book-now {
+  background-color: #000f89;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.main-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main-header h1 {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  margin-top: 5rem;
+  color: #000f89;
+  text-align: center;
+}
+
+.license-info {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.book-now:hover {
+  background-color: #1c39bb;
+}
+
+/* Main & Footer */
+main {
+  padding: 1rem;
+  text-align: center;
+  flex: 1;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper to contain all page content */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 12vh;  /* Full viewport height */
+}
+
+/* Footer layout */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+}
+
+/* Social Media Buttons */
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #555;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #1c39bb;
+}
+
+.services-section {
+  padding: 4rem 2rem;
+  color: #222;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #000f89;
+}
+
+.category-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.service-category ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 2;
+  flex: 1;
+  margin-bottom: 3rem;
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.closing-message {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 2rem auto 0;
+  text-align: center;
+  color: #000f89;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+/* Form & Image layout */
+.contact-form,
+.contact-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Name input row */
+.name-fields {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+/* Inputs & Textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+textarea {
+  border-radius: 1rem;
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+button {
+  background-color: #000f89;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+button:hover {
+	background-color: #1c39bb;
+}
+
+/* Image Styling */
+.contact-image {
+  text-align: center;
+}
+
+.contact-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 1rem;
+}
